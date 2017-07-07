@@ -1,0 +1,119 @@
+.top-bar{
+	background-color: #1c2f2f;
+}
+
+.intro{
+	height:100 %;
+	width: 100%;
+	background: url(brazil.jpg);
+	display: table;
+	top:0;
+	background-size:cover;
+}
+.intro .inner{
+	display:table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width: none;
+}
+.content{
+	max-width:900px;
+	margin:0 auto;
+	text-align: center;
+	color: white;
+}
+
+.button {
+	background-color: #007a9f;
+	color: white;
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+
+.vertical-divider:after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.vertical-divider .column:not(:first-child):after, .vertical-divider .columns:not(:first-child):after{
+	background: #DDDDDD;
+	bottom: 0;
+	content: " ";
+	margin-left: -10px;
+	position: absolute;
+	top: 0;
+	width: 0px;
+}
+
+.container {
+	 position: relative; 
+	 width: 960px; 
+	 margin: 20px auto; 
+	 padding: 0; 
+}
+
+.container .column{ 
+	float: left; 
+	display: inline; 
+	margin-left: 10px; 
+	margin-right: 10px; 
+}
+
+.container .one-third.column { 
+	width: 300px; 
+}
+
+.container .two-thirds.column { 
+	width: 620px; 
+}
+
+button{
+	background-color: #007a9f;
+	color: white;
+	display: block;
+}
+
+#hide{
+	display: none;
+}
+
+#show{
+	display: true; 
+}
+
+#data{
+	display: none;
+}
+
+.divider--blue h6{
+	 margin-left: 50%;
+	 line-height: 50px;
+	 color: white;
+}
+.divider--blue h5{
+	 margin-left:50% ;
+	 line-height: px;
+	 color: white;
+}
+
+.footer{
+	background-color: #1c2f2f;
+}
+
+
+.footer .footer__partner-logo{
+	text-align: center;
+}
+
+.copyright{
+	text-align: center;
+}
+
+
+
